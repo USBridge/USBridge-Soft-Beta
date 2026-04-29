@@ -21,8 +21,6 @@
 
 ## Download
  
-> No installer yet — just unzip and run.
- 
 ### Client — control your machines from here
  
 | | Windows | macOS | Linux | Android |
@@ -35,6 +33,8 @@
 | | Windows | macOS | Linux |
 |--|---------|-------|-------|
 | x64 | [Download .zip](#) | [Download .zip](#) | 🚧 In development |
+ 
+> No installer yet — just unzip and run.
  
 ---
 
