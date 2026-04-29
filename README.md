@@ -20,26 +20,22 @@
 ---
 
 ## Download
-
-### Client — control your machines from here
-
-| Platform | Download |
-|----------|----------|
-| 🪟 Windows (x64) | [Download .zip](#) |
-| 🍎 macOS (ARM / Intel) | [Download .zip](#) |
-| 🐧 Linux (x64) | [Download .zip](#) |
-| 🤖 Android | [Download .apk](#) |
-
-### Agent — install on the target machine
-
-| Platform | Download |
-|----------|----------|
-| 🪟 Windows | [Download .zip](#) |
-| 🍎 macOS | [Download .zip](#) |
-| 🐧 Linux | 🚧 In development |
-
+ 
 > No installer yet — just unzip and run.
-
+ 
+### Client — control your machines from here
+ 
+| | Windows | macOS | Linux | Android |
+|--|---------|-------|-------|---------|
+| x64 | [Download .zip](#) | [Download .zip](#) | [Download .zip](#) | — |
+| ARM64 | — | [Download .zip](#) | — | [Download .apk](#) |
+ 
+### Agent — install on the target machine
+ 
+| | Windows | macOS | Linux |
+|--|---------|-------|-------|
+| x64 | [Download .zip](#) | [Download .zip](#) | 🚧 In development |
+ 
 ---
 
 ## How It Works
