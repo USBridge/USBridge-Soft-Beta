@@ -54,23 +54,7 @@
  
 ---
 
-## How It Works
-
-USBridge Remote operates in two modes:
-
-**Hardware Mode** — connect via a physical USBridge KVM device. Gives you full bare-metal access: BIOS navigation over SSH, OS installation, recovery tasks. No software agent needed on the target machine.
-
-**Software Mode** — install the agent on the target machine. Gives you high-performance remote desktop over an encrypted P2P tunnel (Tailscale/WireGuard). Works globally without complex firewall configuration.
-
-A single dashboard shows all your assets — hardware and software nodes — in one place.
-
-→ [Full setup guide with screenshots](SETUP.md)
-
----
-
 ## Community & Beta Testing
-
-We're actively looking for beta testers.
 
 Join our Discord to get the **Beta Tester** role, report bugs, and shape the roadmap:
 
