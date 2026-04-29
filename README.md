@@ -42,17 +42,15 @@
  
 **One place for everything** — manage USBridge KVM hardware devices and software agents from a single dashboard. Add a machine, connect, done.
  
-![USBridge Remote — Connections](assets/screenshot_connections.png)
- 
 **No limits, no subscriptions** — completely free. No session time limits, no connection limits, no account required on the target machine.
  
 **Low-latency video** — adaptive streaming engine selects the most efficient protocol based on connection type. 2K resolution with minimal latency.
  
-![USBridge Remote — Remote Desktop](assets/screenshot_desktop.png)
+![USBridge Remote — Remote Desktop](assets/screenshot_USBridge_client.png)
  
 **Tailscale integration** — built-in encrypted P2P tunnel. Connect to any machine globally without port forwarding, VPN configs, or firewall rules. Works on LAN and over the internet automatically.
  
-![USBridge Remote — Agent](assets/screenshot_agent.png)
+![USBridge Remote — Agent](assets/screenshot_USBridge_agent.png)
  
 ---
 
