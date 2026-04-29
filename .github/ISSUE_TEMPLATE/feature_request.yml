@@ -1,0 +1,47 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea? We'd love to hear it.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Which part of the app is this about?
+      options:
+        - Client UI / Dashboard
+        - Connection / Networking
+        - KVM Hardware Mode
+        - Software Remote Desktop Mode
+        - Agent
+        - Mobile (Android)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      placeholder: "I find it frustrating when..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      placeholder: "It would be great if..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+    validations:
+      required: false
