@@ -1,22 +1,63 @@
-# USBridge Soft
-
-**USBridge Soft** is a universal software client designed to unify the management of physical USBridge KVM hardware and software-based remote nodes within a single interface. I am engineering this solution as a central hub for administrators, enabling seamless transitions between low-level hardware access (BIOS/Boot level) and high-performance OS-level remote management.
-
-## Core Concept
-
-The project is built on a **hybrid approach** to remote infrastructure management:
-
-* **Hardware Mode:** Full "bare-metal" control via USBridge physical KVM-over-IP bridges. This allows for BIOS configuration, OS installation, and recovery tasks.
-* **Software Mode:** High-speed remote desktop control via a software agent (similar to TeamViewer). This is optimized for day-to-day administration of running operating systems without requiring additional hardware.
-
-## Key Features
-
-I am developing this client to eliminate tool sprawl. By consolidating hardware and software access into a single application, USBridge Soft provides:
-
-* **Unified Dashboard:** A single pane of glass to monitor and connect to all assets—whether they are physical USBridge hardware units or servers running the software agent.
-* **Integrated Networking:** Automatic provisioning of secure P2P tunnels using **Tailscale/WireGuard**. This ensures reliable, encrypted access to any node globally without complex firewall configurations.
-* **Adaptive Streaming:** The engine automatically selects the most efficient video protocol based on the connection type—utilizing hardware-accelerated capture for physical bridges or high-framerate screen sharing for software nodes.
-
-## Vision
-
-This evolution transforms USBridge from a collection of standalone devices into a comprehensive **Remote Management Ecosystem**, capable of scaling from a single server to complex, distributed infrastructures.
+# USBridge Soft — Beta
+ 
+> **USBridge Soft** is a unified client for managing remote machines — combining hardware-level BIOS access via USBridge KVM devices and software-based remote desktop in a single interface.
+ 
+---
+ 
+> ⚠️ **Beta Software**
+> This is an early release. Expect bugs. Please report issues via [GitHub Issues](https://github.com/USBridge/USBridge-Soft/issues) or join our [Discord](https://discord.com/invite/xqQ6ybkfWS) for support.
+ 
+---
+ 
+## Download
+ 
+### Client — control your machines from here
+ 
+| Platform | Download |
+|----------|----------|
+| Windows (x64) | [Download .zip](#) |
+| macOS (ARM / Intel) | [Download .zip](#) |
+| Linux (x64) | [Download .zip](#) |
+| Android | [Download .apk](#) |
+ 
+### Agent — install on the target machine
+ 
+| Platform | Download |
+|----------|----------|
+| Windows | [Download .zip](#) |
+| macOS | [Download .zip](#) |
+| Linux | 🚧 In development |
+ 
+> No installer yet — just unzip and run.
+ 
+---
+ 
+## How It Works
+ 
+USBridge Soft operates in two modes:
+ 
+**Hardware Mode** — connect via a physical USBridge KVM device. Gives you full bare-metal access: BIOS navigation over SSH, OS installation, recovery tasks. No software agent needed on the target machine.
+ 
+**Software Mode** — install the agent on the target machine. Gives you high-performance remote desktop over an encrypted P2P tunnel (Tailscale/WireGuard). Works globally without complex firewall configuration.
+ 
+A single dashboard shows all your assets — hardware and software nodes — in one place.
+ 
+→ [Full setup guide with screenshots](SETUP.md)
+ 
+---
+ 
+## Community & Beta Testing
+ 
+We're actively looking for beta testers.
+ 
+Join our Discord to get the **Beta Tester** role, report bugs, and shape the roadmap:
+ 
+**[discord.com/invite/xqQ6ybkfWS](https://discord.com/invite/xqQ6ybkfWS)**
+ 
+---
+ 
+## Links
+ 
+- 🌐 [usbridge.io](https://usbridge.io)
+- 🛒 [USBridge KVM 2.0 on Crowdsupply](https://crowdsupply.com/usbridge-technologies/usbridge-kvm-2-0)
+- 💬 [Discord](https://discord.com/invite/xqQ6ybkfWS)
