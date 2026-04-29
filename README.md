@@ -12,11 +12,11 @@
 </div>
 
 ---
-
-> **USBridge Remote** is a unified client for managing remote machines — combining hardware-level BIOS access via USBridge KVM devices and software-based remote desktop in a single interface.
-
+ 
+**USBridge Remote** is a unified client for managing remote machines — combining hardware-level BIOS access via USBridge KVM devices and software-based remote desktop in a single interface.
+ 
 > ⚠️ **Beta Software** — This is an early release. Expect bugs. Please report issues via [GitHub Issues](https://github.com/USBridge/USBridge-Soft-Beta/issues) or join our [Discord](https://discord.com/invite/xqQ6ybkfWS) for support.
-
+ 
 ---
 
 ## Download
