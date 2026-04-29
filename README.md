@@ -27,8 +27,8 @@
  
 | | Windows | macOS | Linux | Android |
 |--|---------|-------|-------|---------|
-| x64 | [Download .zip](#) | [Download .zip](#) | [Download .zip](#) | — |
-| ARM64 | — | [Download .zip](#) | — | [Download .apk](#) |
+| x64 | [Download .zip](#) | [Download .zip](#) | [Download .zip](#) | |
+| ARM64 | | [Download .zip](#) | | [Download .apk](#) |
  
 ### Agent — install on the target machine
  
