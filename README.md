@@ -28,18 +28,18 @@
 
 | OS | Arch | Download Link |
 |:---|:---|:---|
-| **Windows** | x86_64 | [USBridgeClient-1.0.0-windows-x86_64.zip](#) |
-| **macOS** | ARM64 | [USBridgeClient-1.0.0-macOS-arm64.zip](#) |
-| **Linux** | x86_64 | [USBridgeClient-1.0.0-linux-x86_64.tar.gz](#) |
-| **Android** | ARM64 | [USBridgeClient-1.0.0-android-arm64.apk](#) |
+| **Windows** | x86_64 | [USBridgeClient-1.0.0-windows-x86_64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-windows-x86_64.zip) |
+| **macOS** | ARM64 | [USBridgeClient-1.0.0-macOS-arm64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-macOS-arm64.zip) |
+| **Linux** | x86_64 | [USBridgeClient-1.0.0-linux-x86_64.tar.gz](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-linux-x86_64.tar.gz) |
+| **Android** | ARM64 | [USBridgeClient-1.0.0-android-arm64.apk](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-android-arm64.apk) |
 
 ### Agent — install on the target machine
 *Run this on the computer you want to access remotely.*
 
 | OS | Arch | Download Link |
 |:---|:---|:---|
-| **Windows** | x86_64 | [USBridgeAgent-1.0.0-windows-x86_64.zip](#) |
-| **macOS** | ARM64 | [USBridgeAgent-1.0.0-macOS-arm64.zip](#) |
+| **Windows** | x86_64 | [USBridgeAgent-1.0.0-windows-x86_64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-windows-x86_64.zip) |
+| **macOS** | ARM64 | [USBridgeAgent-1.0.0-macOS-arm64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-macOS-arm64.zip) |
 | **Linux** | x86_64 | 🚧 In development |
 
 ---
