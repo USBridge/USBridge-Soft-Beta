@@ -32,7 +32,7 @@
  
 | | Windows | macOS | Linux |
 |--|---------|-------|-------|
-| x64 | [Download .zip](#) | [Download .zip](#) | 🚧 In development |
+| x64 | [Download .zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/tag/v1.0.0-alpha#:~:text=USBridgeAgent%2DmacOS%2D1.0.0.zip) | [Download .zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/tag/v1.0.0-alpha#:~:text=USBridgeAgent%2Dwindows%2D1.0.0.zip) | 🚧 In development |
  
 > No installer yet — just unzip and run.
  
