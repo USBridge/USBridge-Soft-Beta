@@ -23,24 +23,21 @@
 
 ## Download
 
-### Client — control your machines from here
+### Client
 *Run this on the device you are using to control others.*
 
-| OS | Arch | Download Link |
-|:---|:---|:---|
-| **Windows** | x86_64 | [USBridgeClient-1.0.0-windows-x86_64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-windows-x86_64.zip) |
-| **macOS** | ARM64 | [USBridgeClient-1.0.0-macOS-arm64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-macOS-arm64.zip) |
-| **Linux** | x86_64 | [USBridgeClient-1.0.0-linux-x86_64.tar.gz](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-linux-x86_64.tar.gz) |
-| **Android** | ARM64 | [USBridgeClient-1.0.0-android-arm64.apk](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-android-arm64.apk) |
+| | Windows | macOS | Linux | Android |
+|:---|:---:|:---:|:---:|:---:|
+| **x86_64** | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-windows-x86_64.zip) |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-linux-x86_64.tar.gz) |  |
+| **ARM64** |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-macOS-arm64.zip) |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-android-arm64.apk) |
 
-### Agent — install on the target machine
+### Agent
 *Run this on the computer you want to access remotely.*
 
-| OS | Arch | Download Link |
-|:---|:---|:---|
-| **Windows** | x86_64 | [USBridgeAgent-1.0.0-windows-x86_64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-windows-x86_64.zip) |
-| **macOS** | ARM64 | [USBridgeAgent-1.0.0-macOS-arm64.zip](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-macOS-arm64.zip) |
-| **Linux** | x86_64 | 🚧 In development |
+| | Windows | macOS | Linux |
+|:---|:---:|:---:|:---:|
+| **x86_64** | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-windows-x86_64.zip) |  | 🚧 |
+| **ARM64** |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-macOS-arm64.zip) | 🚧 |
 
 ---
 
