@@ -24,20 +24,19 @@
 ## Download
 
 ### Client
-*Run this on the device you are using to control others.*
+The Client is the control interface — installed on your workstation or laptop. It manages connections, live remote desktop, virtual device passthrough, and snapshot registry.
 
 | | Windows | macOS | Linux | Android |
 |:---|:---:|:---:|:---:|:---:|
-| **x86_64** | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-windows-x86_64.zip) |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-linux-x86_64.tar.gz) |  |
-| **ARM64** |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-macOS-arm64.zip) |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-android-arm64.apk) |
+| **x86_64** | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-windows-x86_64.zip) | | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-linux-x86_64.tar.gz) | |
+| **ARM64** | | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-macOS-arm64.zip) | | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeClient-1.0.0-android-arm64.apk) |
 
 ### Agent
-*Run this on the computer you want to access remotely.*
-
+The Agent runs on the target machine — the server or PC you want to access remotely. It handles screen capture, input injection, and Tailscale networking.
 | | Windows | macOS | Linux |
 |:---|:---:|:---:|:---:|
-| **x86_64** | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-windows-x86_64.zip) |  | 🚧 |
-| **ARM64** |  | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-macOS-arm64.zip) | 🚧 |
+| **x86_64** | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-windows-x86_64.zip) | | 🚧 |
+| **ARM64** | | [Download](https://github.com/USBridge/USBridge-Remote-Beta/releases/download/v1.0.0-alpha/USBridgeAgent-1.0.0-macOS-arm64.zip) | 🚧 |
 
 ---
 
@@ -54,6 +53,16 @@
 **Tailscale integration** — Built-in encrypted P2P tunneling. Connect to any machine globally without messing with port forwarding or firewall rules. It works on LAN and over the internet automatically.
 
 ![USBridge Remote — Agent](assets/screenshot_USBridge_agent.png)
+
+---
+
+## Quick Start
+
+1. **Install the Agent** on the machine you want to access remotely. Launch it — it will display a connection token and Tailscale address. Connect Tailscale if you need access over the internet.
+
+2. **Install the Client** on your workstation, laptop, or phone.
+
+3. **Add a connection** — enter the IP or Tailscale address shown in the Agent window. That's it.
 
 ---
 
